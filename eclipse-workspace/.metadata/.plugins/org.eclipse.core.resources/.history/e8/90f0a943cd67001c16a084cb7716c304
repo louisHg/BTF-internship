@@ -65,7 +65,7 @@ public class Login extends HttpServlet {
          
         System.out.println( "in the doPost" );
 
-        if ( login.equals( "toto" ) && password.equals( "toto" ) ) {
+        if ( login.equals( "Bond" ) && password.equals( "007" ) ) {
             response.setContentType( "text/html" );
             try ( PrintWriter out = response.getWriter() ) {
                 out.println( "OK" );
